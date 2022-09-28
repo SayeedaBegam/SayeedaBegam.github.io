@@ -1,0 +1,225 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compayible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d19dba4d9d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            
+            <ul id="Sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Course">Course</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+                     <p>Mechatronics & Software Engineer</p>
+            <h1>Hello, I 'm<span> Sayeeda </span> from India</h1>
+        </div>
+    </div>
+</div>
+<!-----------About--------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/user img.jpg">
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>I am an aspiring Mechatronics engineer at Puducherry Technological University with a Minor in Computer science engineering. I am obsessively developing my skill set. Interested in acquiring knowledge and experimenting. </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                   
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming languages</span><br>C/C++,Python,HTML,CSS</li>
+                        <li><span>Data structure & Problem solving</span><br>C/C++,Python</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        <li><span>AutoCAD</span><br>Designing the model</li>
+                        <li><span>OnShape</span><br>Creating the 3D representations</li>
+                        <li><span>Keil</span><br>Programming the Microcontroller</li>
+                        <li><span>Proteus</span><br>Embedded System development and Stimulation of Microcontroller</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Schooling</span><br>Immaculate Heart of Mary girls higher secondary school<br>Grade upto -12<br>Year of completion- 2019</li>
+                        <li><span>College</span><br>Puducherry Technological University<br>B.Tech Mechatronics (Major) and Minors in Computer science engineering<br>Year of completion - 2024</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------Course---------------->
+<div id="Course">
+    <div class="container">
+        <h1 class="sub-title">Upskilling Certificate</h1>
+        <div class="Course-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Programming Expert</h2>
+                <p>From Programming Expert</p>
+                <p>Complete course on Python programming</p>
+                <a href="img/ProgrammingExpert_Certificate.pdf" target="_blank" class="btn3"></i>Certificate</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-screwdriver"></i>
+                <h2>Wheeled mobile robots</h2>
+                <p>From National Programme on Technology Enhanced Learning (NTPL),Swayam</p>
+                <p>Learned mobile robotics algorithmic, mathematical, computational, and motion control methods. Learned state, navigation, and localization sensor systems. Learned robot motion planning and navigation. Recognized and analysed robot locomotion and manipulation systems Analyzed and developed mobile robots</p>
+                <a href="img/Wheeled Mobile Robots.jpg" target="_blank" class="btn3"></i>Certificate</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Introduction to Python Programming</h2>
+                <p>From Prefect-e-learning</p>
+                <p>Basic course on Python programming</p>
+                <a href="img/python certificate prefect e learning.jpg" target="_blank" class="btn3"></i>Certificate</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-car"></i>
+                <h2>Build your own self driving car</h2>
+                <p>From Udemy</p>
+                <p>Setup Raspberry Pi 3 for IOT projects Setup Arduino UNO as a slave micro-controller for IOT projects OpenCV4 image processing for any platform Machine learning and image classification Learned Hardware & software troubleshooting</p>
+                <a href="img/Build your own self driving car.jpg" target="_blank" class="btn3"></i>Certificate</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-signal"></i>
+                <h2>Digital Signal Processing</h2>
+                <p>From Udemy</p>
+                <p>Practical DSP in C : FFT, Filter Design, Convolution, IIR, FIR, Hamming Window, Linear Systems, Chebyshev filters etc</p>
+                <a href="img//Digital Signal Processing .pdf" target="_blank" class="btn3"></i>Certificate</a>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+
+<!--------Blog---------->
+<div id="Blog">
+    <div class="container">
+        <h1 class="sub-title">My Blog</h1>
+        <div class="blog-list">
+            <div class="blog">
+                <img src="img/Blog poster .png">
+                <div class="layer">
+                    <h3>Blog 1</h3>
+                    <p>Chapter 1  The Beginning</p>
+                    <a href="blog/blog 1/blog 1.html" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="blog">
+                <img src="img/Upcoming!!.png">
+                <div class="layer">
+                    <h3>Blog 2</h3>
+                    <p>Simple word to describe a method of organizing our mind</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="blog">
+                <img src="img/Upcoming!!.png">
+                <div class="layer">
+                    <h3>Blog 3</h3>
+                    <p>Simple word to describe a method of organizing our mind</p>    
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="blog/blog.html" target="_blank" class="btn">See More</a>
+    </div>
+</div> 
+<!-----------------------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>sayeedabegam2001@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sayeeda-begam-mohamed-ikbal-8b7809233/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/SayeedaBegam" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                    <a href="https://www.youtube.com/channel/UCuKjLW8KNJUlzlHLl46a2AA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    
+                </div>
+                <a href="images/Sayeeda Begam Ikbal.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Miss to be engineer <i class="fa-solid fa-heart"></i>
+</div>
+<script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+</script>
+
+<script>
+    var Sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        Sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        Sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwuTxAHeeheJoQXaWmehbOmjY-n7BOTZ3-g2iTSLxjgFpszp4cqXGoPwwFND2zQRAjm_Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = " Message sent successfully "
+            setTimeout(function(){
+                msg.innerHTML = " "
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
